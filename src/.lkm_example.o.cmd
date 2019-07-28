@@ -648,6 +648,7 @@ deps_/root/LKM_Fun/src/lkm_example.o := \
     $(wildcard include/config/modules/use/elf/rel.h) \
     $(wildcard include/config/modules/use/elf/rela.h) \
   arch/x86/include/asm/orc_types.h \
+  include/linux/kallsyms.h \
 
 /root/LKM_Fun/src/lkm_example.o: $(deps_/root/LKM_Fun/src/lkm_example.o)
 
